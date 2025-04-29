@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coffee Shop</title>
-    <link rel="shortcut icon" href="./img/icon/logo.svg" type="image/x-icon" />
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="js/main.js" defer></script>
-  </head>
-  <body>
-    <header>
-      <nav></nav>
-      <div class="banner"></div>
-    </header>
-    <main>
-      <section id="about"></section>
-      <section id="menu"></section>
-      <section id="service"></section>
-      <section id="contact"></section>
-    </main>
-    <footer></footer>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffee Shop</title>
+  <link rel="shortcut icon" href="./img/icon/logo.svg" type="image/x-icon" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/media-query.css" />
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <nav class="w-100">
+      <a href="/">
+        <img src="./img/icon/logo.svg" width="60" alt="" />
+      </a>
+      <ul class="nav-items" id="nav-items">
+        <a href="/">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#coffee">Coffee</a>
+        <a href="#contact">Contact</a>
+        <a href="#login" class="btn rounded">Login</a>
+      </ul>
+      <img src="./img/icon/menu.svg" width="40" alt="" id="menu-icon" class="d-none menu-icon" />
+    </nav>
+    <div class="banner"></div>
+  </header>
+  <main>
+    <section id="about"></section>
+    <section id="menu"></section>
+    <section id="service"></section>
+    <section id="contact"></section>
+  </main>
+  <footer></footer>
+</body>
+
 </html>
