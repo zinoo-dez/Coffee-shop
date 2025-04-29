@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+          h1 {
+               font-size: 5rem;
+          }
+
+          /* desktop-first approved(big-to-small) */
+
+          @media (max-width: 1002px) {
+               body {
+                    background-color: red;
+               }
+
+               h1 {
+                    font-size: 3rem;
+               }
+          }
+
+          @media (max-width: 768px) {
+               body {
+                    background-color: blue;
+               }
+
+               h1 {
+                    font-size: 2rem;
+               }
+          }
+
+          @media (max-width: 576px) {
+               body {
+                    background-color: green;
+               }
+
+               h1 {
+                    font-size: 1rem;
+               }
+          }
+     </style>
+</head>
+
+<body>
+     <h1>Lorem ipsum dolor sit amet.</h1>
+</body>
+
+</html>
