@@ -95,3 +95,32 @@ nav {
 }
 
 /* navbar end */
+/* banner start */
+.banner {
+     height: calc(100dvh);
+     background: url(../img/big2.jpg) center/cover no-repeat;
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
+}
+
+.banner * {
+     color: var(--white-color);
+}
+
+.banner__text_group {
+     width: 40%;
+     padding: 30px;
+     border-radius: 20px;
+     backdrop-filter: blur(30px);
+     margin-right: 80px;
+}
+
+.btn_group {
+     margin-top: 20px;
+}
+
+.btn-white {
+     background: var(--bg-color);
+     color: var(--primary-color);
+}
