@@ -30,6 +30,7 @@
           /* transform: scale(0); */
           transform-origin: bottom left;
           transition: 0.5s;
+          z-index: 999999;
           /* display: none; */
      }
 
@@ -39,9 +40,6 @@
           /* transform: scale(1); */
      }
 
-
-
-
      .nav-items a {
           color: var(--white-color);
      }
@@ -50,5 +48,9 @@
           border-bottom: 1px solid var(--white-color);
      }
 
+     .banner__text_group {
+          width: 90%;
+          margin: auto;
+     }
 
 }
